@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+        name: '',
+        // 右上角git地址链接
+        repo: '',
+        // 封面渲染
+        coverpage: true,
+        // 使用自定义侧边栏
+        loadSidebar: true,
+        // 是否使用自动标题
+        autoHeader: true,
+        // 自定义侧边栏目录展开的最大层级
+        subMaxLevel: 3,
+        // 切换页面后自动跳转到页面顶部
+        auto2top: true,
+        // 首页
+        homepage: './zh-cn/es6/test1',
+        // 404页
+        notFoundPage: './zh-cn/es6/test1',
+        // 左侧目录上方展示的文档标题
+        name: 'Damon前端博客',
+        // 点击文档标题区域后跳转的链接地址
+        nameLink: 'javascript:void(0)',
+        search: {
+            // 默认值
+            paths: 'auto',
+            placeholder: '搜索',
+            noData: '找不到结果',
+            // 过期时间，单位毫秒，默认一天
+            maxAge: 86400000,
+            // 搜索标题的最大层级, 1 - 6
+            depth: 2,
+        },
+      
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+</body>
+</html>

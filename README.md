@@ -1,2 +1,3 @@
-# frontNote
-前端博客笔记
+# Headline
+
+> An awesome project.
