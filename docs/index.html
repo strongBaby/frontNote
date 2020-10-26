@@ -14,7 +14,7 @@
     window.$docsify = {
         name: '',
         // 右上角git地址链接
-        repo: '',
+        repo: 'https://github.com/strongBaby/frontNote',
         // 封面渲染
         coverpage: true,
         // 使用自定义侧边栏
@@ -43,7 +43,10 @@
             // 搜索标题的最大层级, 1 - 6
             depth: 2,
         },
-      
+        // 定义路由别名
+        alias: {
+                '/.*/_sidebar.md': '/_sidebar.md'
+        },
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
